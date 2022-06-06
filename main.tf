@@ -13,6 +13,6 @@ resource "aws_instance" "myawsserver1" {
   instance_type = var.hw
   tags = {
     Name = "shan-vm1-change1"
-    Env = "Dev"
+    Env = "Test"
   }
 }
